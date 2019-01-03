@@ -1,13 +1,17 @@
 import {createStackNavigator, createAppContainer} from 'react-navigation';
 import Home from '../screens/Home';
-import Product from '../screens/Product';
+import Add from '../screens/Add';
+import Test from '../screens/Test';
 
 const Route = createStackNavigator({
     Home: {
         screen: Home
     },
-    Product: {
-        screen: Product
+    Add: {
+        screen: Add
+    },
+    Test: {
+        screen: Test
     }
 });
 
